@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header p {
+    font-size: 24px;
+    display: inline;
+    padding-right: 9%;
+}
+
+.p1 {
+    padding-left: 2.5%;
+}
+
+.first {
+    width: auto;
+    height: 1024px;
+    background-image: url("/images/Firefly\ パスタ\ ボロネーゼ\ シンプル\ 白\ 21685.jpg");
+}
+
+.first h1{
+    font-size: 48px;
+    color: #ffffff;
+}
+
+.first img{
+    object-fit: cover;
+}
