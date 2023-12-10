@@ -16,7 +16,7 @@ header p {
 
 .first {
     width: auto;
-    height: 1024px;
+    height: 1000px;
     background-image: url("/images/Firefly\ パスタ\ ボロネーゼ\ シンプル\ 白\ 21685.jpg");
 }
 
@@ -26,5 +26,6 @@ header p {
 }
 
 .first img{
+    height: 1000px;
     object-fit: cover;
 }
