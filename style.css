@@ -4,28 +4,50 @@
     padding: 0;
 }
 
+header {
+    margin: 100vw;
+    position: fixed;
+}
+
 header p {
     font-size: 24px;
     display: inline;
     padding-right: 9%;
+    color: #ffffff;
+    z-index: 1;
 }
 
-.p1 {
+header .p1 {
     padding-left: 2.5%;
 }
 
-.first h1{
-    font-size: 48px;
+header p:hover {
+    color: #ff9f63;
+}
+
+.first {
+    width: 99vw;
+    height: auto;
+    position: relative;
+    top: 0;
+    z-index: 0;
+}
+
+.first p{
+    font-size: 40px;
     color: #ffffff;
+    position: absolute;
+    top: 60%;
+    left: 5%;
 }
 
 .first img{
-    width: 100vw;
-    height: auto;
+    width: 100%;
 }
 
 .merit img{
-    width: 100vw;
+    width: 100%;
     height: auto;
-    object-fit: cover;
+    object-fit: contain;
+    top: 0;
 }
