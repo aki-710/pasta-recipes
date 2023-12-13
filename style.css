@@ -51,3 +51,26 @@ header p:hover {
     object-fit: contain;
     top: 0;
 }
+
+.tool {
+    padding-top: 250px;
+    height: auto;
+}
+
+.tool h2 {
+    font-size: 300%;
+}
+
+.tool h3 {
+    
+}
+
+.tool img {
+    width: 50%;
+    height: auto;
+    padding-left: 5%;
+}
+
+.tool p {
+    font-size: 300%;
+}
