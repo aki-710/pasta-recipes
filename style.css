@@ -53,16 +53,16 @@ header p:hover {
 }
 
 .tool {
-    padding-top: 250px;
     height: auto;
 }
 
 .tool h2 {
-    font-size: 300%;
+    font-size: 500%;
+    font-weight: 15;
 }
 
 .tool h3 {
-    
+    font-size: 200%;
 }
 
 .tool img {
@@ -73,4 +73,11 @@ header p:hover {
 
 .tool p {
     font-size: 300%;
+}
+
+.tool-title {
+    display: flex;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 3%;
 }
