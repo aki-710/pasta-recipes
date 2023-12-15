@@ -2,6 +2,9 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Bubblegum Sans', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
 }
 
 header {
@@ -57,6 +60,10 @@ header p:hover {
 .tool h2 {
     font-size: 500%;
     font-weight: 15;
+    display: inline-block;
+    border-bottom: 1px solid black; /* 線の太さと色を指定 */
+    padding-bottom: 2px; /* 線と文字の間隔を調整（任意） */
+    
 }
 
 .tool h3 {
@@ -78,12 +85,4 @@ header p:hover {
     padding-top: 10%;
     padding-bottom: 10%;
     padding-left: 3%;
-}
-
-.tool h2::after {
-    content: "";
-    display: inline-block;
-    width: 1em; /* 線の幅を調整 */
-    height: 1px; /* 線の高さを調整 */
-    background-color: black; /* 線の色を設定 */
 }
