@@ -68,7 +68,7 @@ header p:hover {
     font-size: 200%;
 }
 
-.tool img {
+.tool-img img {
     width: 50%;
     height: auto;
     padding-left: 5%;
@@ -83,4 +83,10 @@ header p:hover {
     padding-top: 10%;
     padding-bottom: 10%;
     padding-left: 3%;
+}
+
+.tool
+
+.tool-contents {
+    display: inline-flex;
 }
