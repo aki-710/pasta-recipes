@@ -61,9 +61,7 @@ header p:hover {
     font-size: 500%;
     font-weight: 15;
     display: inline-block;
-    border-bottom: 1px solid black; /* 線の太さと色を指定 */
-    padding-bottom: 2px; /* 線と文字の間隔を調整（任意） */
-    
+    transform: rotate(90deg);
 }
 
 .tool h3 {
