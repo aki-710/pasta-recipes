@@ -32,6 +32,8 @@ header p:hover {
     position: relative;
     top: 0;
     z-index: 0;
+    margin: 0;
+    line-height: 1;
 }
 
 .first p{
@@ -60,7 +62,6 @@ header p:hover {
 .tool h2 {
     font-size: 500%;
     font-weight: 15;
-    display: inline-block;
     transform: rotate(90deg);
 }
 
@@ -69,7 +70,7 @@ header p:hover {
 }
 
 .tool-img img {
-    width: 50%;
+    width: 100%;
     height: auto;
     padding-left: 5%;
 }
@@ -85,7 +86,9 @@ header p:hover {
     padding-left: 3%;
 }
 
-.tool
+.tool-title h3 {
+    border-bottom: solid 1px #000000;
+}
 
 .tool-contents {
     display: inline-flex;
