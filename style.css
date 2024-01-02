@@ -62,7 +62,6 @@ header p:hover {
 .tool h2 {
     font-size: 500%;
     font-weight: 15;
-    transform: rotate(90deg);
 }
 
 .tool h3 {
@@ -70,7 +69,7 @@ header p:hover {
 }
 
 .tool-img img {
-    width: 100%;
+    width: 150%;
     height: auto;
     padding-left: 5%;
 }
