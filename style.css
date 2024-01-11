@@ -14,7 +14,6 @@ header {
 
 header p {
     font-size: 24px;
-    display: inline;
     padding-right: 9%;
     color: #ffffff;
     z-index: 1;
@@ -55,6 +54,11 @@ header p:hover {
     height: 110vb;
 }
 
+.merit-title {
+    padding-top: 10%;
+    display: flex;
+}
+
 .merit h2 {
     font-size: 400%;
     font-weight: 15;
@@ -62,6 +66,7 @@ header p:hover {
 
 .merit h3 {
     font-size: 250%;
+    font-weight: 15;
 }
 
 .merit img{
