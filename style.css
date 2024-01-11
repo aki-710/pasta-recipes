@@ -56,8 +56,12 @@ header p:hover {
 }
 
 .merit h2 {
-    font-size: 500%;
+    font-size: 400%;
     font-weight: 15;
+}
+
+.merit h3 {
+    font-size: 250%;
 }
 
 .merit img{
@@ -71,12 +75,19 @@ header p:hover {
     height: auto;
 }
 
+.tool-title {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    display: flex;
+}
+
 .tool h2 {
-    font-size: 500%;
+    font-size: 400%;
     font-weight: 15;
 }
-.tool span {
-    
+.tool h3 {
+    font-size: 250%;
+    font-weight: 15;
 }
 
 .tool-img img {
@@ -85,26 +96,10 @@ header p:hover {
     padding-left: 5%;
 }
 
-.tool p {
-    font-size: 300%;
-    display: flex;
-}
-
-.tool-title {
-    display: flex;
-    padding-top: 10%;
-    padding-bottom: 10%;
-    padding-left: 3%;
-}
-
-.tool-title h3 {
-    border-bottom: solid 1px #000000;
-}
-
 .tool-contents {
     display: flex;
 }
 
 .tool-items {
-    
+    font-size: 300%;
 }
