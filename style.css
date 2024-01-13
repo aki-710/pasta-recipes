@@ -50,16 +50,21 @@ br {
 
 .title_number {
     position: relative;
+    font-size: 400%;
+    font-weight: 15;
 }
 
 .title_name {
-
+    font-size: 250%;
+    font-weight: 15;
+    padding-top: 1.1%;
+    padding-left: 50%;
 }
 
 .title_number::after {
     position: absolute;
     top: 50%;
-    width: 90%;
+    width: 1000%;
     height: 2px;
     background-color: #000000;
     content: "";
@@ -92,18 +97,6 @@ br {
     height: 110vb;
 }
 
-.merit h2 {
-    font-size: 400%;
-    font-weight: 15;
-}
-
-.merit h3 {
-    font-size: 250%;
-    font-weight: 15;
-    padding-top: 1.1%;
-    padding-left: 45%;
-}
-
 .merit img{
     width: 100%;
     height: auto;
@@ -127,17 +120,6 @@ br {
 
 .tool {
     height: auto;
-}
-
-.tool h2 {
-    font-size: 400%;
-    font-weight: 15;
-    padding-right: 50%;
-}
-.tool h3 {
-    font-size: 250%;
-    font-weight: 15;
-    padding-top: 1.1%;
 }
 
 .tool-img img {
@@ -172,33 +154,13 @@ br {
     height: 110vb;
 }
 
-.recipe-title {
-    padding-top: 10%;
-    display: flex;
-    padding-left: 10%;
-    padding-bottom: 15%;
-}
-
-.recipe h2 {
-    font-size: 400%;
-    font-weight: 15;
-}
-
-.recipe h3 {
-    font-size: 250%;
-    font-weight: 15;
-    padding-top: 1.1%;
-    padding-left: 50%;
-}
-
 .recipe-img img {
     height: 2%;
 }
 
 footer {
-        height: 80px;
-        background-color: #B58D55;
-        line-height: 80px;
-        text-align: center;
-        font-size: 24px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    font-size: 24px;
 }
