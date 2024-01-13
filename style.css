@@ -28,7 +28,7 @@ header .p1 {
 }
 
 header p:hover {
-    color: #ff9f63;
+    color: #855638;
 }
 
 .first {
@@ -81,6 +81,15 @@ header p:hover {
     height: auto;
     object-fit: contain;
     top: 0;
+}
+
+.metit-content {
+    height: 200%;
+    padding-left: 50%;
+}
+
+.metit-content p {
+    font-size: 200%;
 }
 
 .tool {
