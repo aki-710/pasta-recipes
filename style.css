@@ -45,6 +45,7 @@ br {
     padding-top: 7%;
     display: flex;
     padding-left: 10%;
+    padding-bottom: 10%;
 }
 
 .title_number {
@@ -58,7 +59,7 @@ br {
 .title_number::after {
     position: absolute;
     top: 50%;
-    width: 1000%;
+    width: 90%;
     height: 2px;
     background-color: #000000;
     content: "";
@@ -113,7 +114,7 @@ br {
 .merit-content {
     height: 200%;
     padding-left: 55%;
-    padding-top: 5%;
+    padding-top: 0%;
 }
 
 .merit-content p {
@@ -126,13 +127,6 @@ br {
 
 .tool {
     height: auto;
-}
-
-.tool-title {
-    padding-top: 10%;
-    padding-bottom: 10%;
-    display: flex;
-    padding-left: 10%;
 }
 
 .tool h2 {
