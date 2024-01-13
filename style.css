@@ -11,6 +11,10 @@ h3 {
     color: rgb(2, 0, 118);
 }
 
+h4 {
+    color: rgb(2, 0, 118);
+}
+
 header {
     height: 100%;
     width: 20%;
@@ -131,11 +135,13 @@ header p:hover {
 
 .tool-items h4 {
     font-size: 250%;
+    font-weight: 5;
 }
 
-.tool-items p {
+.tool-items h5 {
     font-size: 200%;
     padding-top: 10%;
+    font-weight: 15;
 }
 
 .recipe {
