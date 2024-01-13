@@ -39,7 +39,22 @@ br {
     display: block;
     content: "";
     margin: 1em 0; /* 適切なマージンを設定 */
-  }
+}
+
+.title {
+    display: flex;
+    padding-top: 7%;
+    display: flex;
+    padding-left: 10%;
+}
+
+.title_number {
+    position: relative;
+}
+
+.title_name {
+    
+}
 
 .first {
     position: relative;
@@ -66,12 +81,6 @@ br {
     background-size: cover;
     width: 100%;
     height: 110vb;
-}
-
-.merit-title {
-    padding-top: 7%;
-    display: flex;
-    padding-left: 10%;
 }
 
 .merit h2 {
