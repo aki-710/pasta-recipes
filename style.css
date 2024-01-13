@@ -7,6 +7,10 @@
     font-family: 'Zen Kaku Gothic New', sans-serif;
 }
 
+h3 {
+    color: rgb(2, 0, 118);
+}
+
 header {
     height: 100%;
     width: 20%;
@@ -102,7 +106,7 @@ header p:hover {
 }
 
 .tool-img img {
-    width: 150%;
+    width: 130%;
     height: auto;
     padding-left: 5%;
 }
@@ -112,7 +116,17 @@ header p:hover {
 }
 
 .tool-items {
-    font-size: 300%;
+    padding-left: 20%;
+}
+
+
+.tool-items h4 {
+    font-size: 250%;
+}
+
+.tool-items p {
+    font-size: 200%;
+    padding-top: 10%;
 }
 
 .recipe {
