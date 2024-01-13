@@ -13,6 +13,7 @@ h3 {
 
 h4 {
     color: rgb(2, 0, 118);
+    border-bottom: solid rgb(2, 0, 118);
 }
 
 header {
@@ -136,6 +137,7 @@ header p:hover {
 .tool-items h4 {
     font-size: 250%;
     font-weight: 5;
+    width: 60%;
 }
 
 .tool-items h5 {
