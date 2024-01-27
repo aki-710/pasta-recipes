@@ -1,4 +1,4 @@
-$(function() {
+/*$(function() {
     // 変数に要素を入れる
     var open = $('.img'),
       close = $(''),
@@ -22,4 +22,20 @@ $(function() {
         container.removeClass('active');
       }
     });
-});
+});*/
+
+$(function () {
+    $('.js-modal-open').each(function () {
+      $(this).on("click", function () {
+        var target = $(this).data('target');
+        var modal = document.getElementById(target);
+        $(modal).fadeIn();
+        return false;
+      });
+    });
+    $('.js-modal-close').on("click", function () {
+      $('.js-modal').fadeOut();
+      return false;
+    });
+  });
+  

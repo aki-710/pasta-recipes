@@ -125,11 +125,36 @@
          <h2 class="title_number">03</h2>
          <h3 class="title_name">recipe</h3>
       </div>
-      <div class="pasta-1">
-         <img class="img" src="/images/test1.png">
-         <div class="modal-container">
-            <div class="modal-body">
+
+      <div class="content">
+         <a class="js-modal-open" href="" data-target="modal01">
+            <img src="/images/test1.png" alt="">
+         </a>
+         <a class="js-modal-open" href="" data-target="modal02">
+            <img src="/images/test1.png">
+         </a>
+      </div>
+      <div class="content">
+         <a class="js-modal-open" href="" data-target="modal03">
+            <img src="/images/test1.png">
+         </a>
+         <a class="js-modal-open" href="" data-target="modal04">
+            <img src="/images/test1.png">
+         </a>
+      </div>
+      <div class="content">
+         <a class="js-modal-open" href="" data-target="modal05">
+            <img src="/images/test1.png">
+         </a>
+         <a class="js-modal-open" href="" data-target="modal06">
+            <img src="/images/test1.png">
+         </a>
+      </div>
+      <div id="modal01" class="modal js-modal">
+         <div class="modal_bg js-modal-close"></div>
+            <div class="modal_content">
                <h4>ツナパスタ</h4>
+               <div class="pasta-content">
                   <h5>材料(一人分)</h5>
                      <p>スパゲッティ・・・100g</p>
                      <p>ツナ缶・・・1缶</p>
@@ -140,17 +165,21 @@
                      <p>1.スパゲッティを時間表記通り茹でる</p>
                      <p>2.  ツナ缶の汁気を切って、マヨネーズ、醤油、ブラックペッパーを加えて混ぜ合わせる。</p>
                      <p>3.茹で上がったスパゲッティをざるにあげて、2のソースと和える。</p>
-
-                  <h5>ポイント</h5>
-                     <p>ツナ缶は、水煮でもオイル漬けでもどちらでもOKです。<br>
+                  <div class="point">
+                     <h5>ポイント</h5>
+                     <p>
+                        ツナ缶は、水煮でもオイル漬けでもどちらでもOKです。<br>
                         マヨネーズの量はお好みで調整してください。<br>
-                        ブラックペッパーは、粗挽きを使うと風味が増します。</p>
-            </div>
+                        ブラックペッパーは、粗挽きを使うと風味が増します。
+                     </p>
+                  </div>
+               </div>
+            <a class="js-modal-close" href="">close</a>
          </div>
       </div>
+
       <div class="pasta-2">
-         <img class="img" src="/images/test1.png">
-         <div class="modal-container">
+         <div id="modal-1" class="modal-container">
             <div class="modal-body">
                <h4>ベーコンのペペロンチーノ</h4>
                   <h5>材料(一人分)</h5>
@@ -178,8 +207,7 @@
             </div>
          </div>
       </div>
-      <div class="img-block">
-         <img class="img" src="/images/test1.png">
+      <div id="modal-1" class="img-block">
          <div class="modal-container">
             <div class="modal-body">
                <h4>ベーコンのペペロンチーノ</h4>
