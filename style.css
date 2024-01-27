@@ -16,31 +16,36 @@ h4 {
 }
 
 header {
-    height: 10%;
+    height: 15%;
     display: flex;
     justify-content: space-between;
     padding-left: 120px;
     padding-right: 120px;
     position: fixed;
     width: 100vw;
-    background-color: rgba(255, 255, 255, 0.8);
+    z-index: 3;
+    background-color: #ffffff6a;
 }
 
 header p {
     font-size: 36px;
-    display: flex;
     justify-content: space-between;
+    padding-top: 2.5%;
+    color: #ffffff;
 }
 
 header a {
     font-size: 24px;
     padding-left: 5%;
-    padding-top: 2vh;
-    display: flex;
+    padding-top: 4vh;
+    color: #ffffff;
+    border-bottom: 0;
+    text-decoration:none;
+    transition: all  0.5s ease;
 }
 
 header a:hover {
-    color: #855638;
+    color: #b27650;
 }
 
 .title {
@@ -93,6 +98,7 @@ header a:hover {
     position: absolute;
     top: 60%;
     left: 7%;
+    line-height: 150%;
 }  
 #first img{
     width: 100%;
@@ -169,13 +175,13 @@ header a:hover {
     position: relative;
 }
 
-.recipe-images img {
-    height: 200px;
-    margin: 200px;
-}
-
 .img-block {
     display: flexbox;
+}
+
+.img-block img {
+    height: 200px;
+    margin: 200px;
 }
 
 .open-content {
