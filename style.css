@@ -171,9 +171,10 @@ header a:hover {
     font-weight: 15;
 }
 
-.img-block img {
+#recipe img {
     height: 100px;
     margin: 100px;
+    flex-shrink: 0;
 }
 
 .open-content {
