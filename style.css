@@ -229,7 +229,6 @@ header a:hover {
     width: 50vw;
     max-width: 100%;
     inset: 0;
-    display: flex;
     justify-content: center;
     flex-direction: column;
     margin: auto;
@@ -246,6 +245,7 @@ header a:hover {
 }
 
 .modal-body h5 {
+    padding-bottom: 2%;
     width: 70%;
     margin: auto;
     font-size: 30px;
@@ -254,10 +254,9 @@ header a:hover {
 }
 
 .modal-body p {
+    padding: 2.5%;
     border-bottom: 1px solid #000000;
     
-    padding: 2%;
-    width: 70%;
 }
 
 footer {
