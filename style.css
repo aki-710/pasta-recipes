@@ -188,13 +188,12 @@ header a:hover {
 	width: 300px;
 	height: 50px;
 	font-weight: bold;
-	color: #fff;
+	color: #ffffff;
 	background: #000;
 	margin: auto;
 	cursor: pointer;
 	transform: translate(-50%,-50%);
 }
-/*モーダル本体の指定 + モーダル外側の背景の指定*/
 
 .modal {
     display: none;
@@ -247,7 +246,7 @@ header a:hover {
 	visibility: visible;
 }
 /*モーダル枠の指定*/
-.modal-body{
+.modal-content{
     background-image: url(/images/n3.jpg);
     background-size: 100%;
     width: 50vw;
@@ -259,16 +258,16 @@ header a:hover {
     padding-bottom: 10%;
 }
 
-.modal-body h4 {
+.modal_content h4 {
     padding-top: 5%;
     padding-bottom: 5%;
-    font-size: 45px;
+    font-size: 45px54;
     display: grid;
     place-items: center;
     font-weight: 100;
 }
 
-.modal-body h5 {
+.pasta-content h5 {
     padding-bottom: 2%;
     width: 70%;
     margin: auto;
@@ -277,8 +276,8 @@ header a:hover {
     border-bottom: 2px solid #D64D00;
 }
 
-.modal-body p {
-    padding: 2.5%;
+.pasta-content p {
+    padding: 1%;
     border-bottom: 1px solid #000000;
     
 }
