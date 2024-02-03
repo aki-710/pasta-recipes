@@ -39,3 +39,13 @@ $(function () {
     });
   });
   
+  var prevScrollPos = 0;
+$(window).scroll(function () {
+  var currentScrollPos = $(this).scrollTop();
+    if (prevScrollPos > currentScrollPos) {
+        $('header').css('top', '0');
+      } else {
+        $('header').css('top', '-1000px'); // ヘッダーの高さ分だけ上に隠す
+      }
+    prevScrollPos = currentScrollPos;
+});

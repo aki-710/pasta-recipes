@@ -16,7 +16,7 @@ h4 {
 }
 
 header {
-    height: 15%;
+    height: 10vh;
     display: flex;
     justify-content: space-between;
     padding-left: 120px;
@@ -30,14 +30,14 @@ header {
 header p {
     font-size: 36px;
     justify-content: space-between;
-    padding-top: 2.5%;
+    padding-top: 1%;
     color: #ffffff;
 }
 
 header a {
     font-size: 24px;
     padding-left: 5%;
-    padding-top: 4vh;
+    padding-top: 3vh;
     color: #ffffff;
     border-bottom: 0;
     text-decoration:none;
