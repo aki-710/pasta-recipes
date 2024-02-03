@@ -25,3 +25,14 @@ $(window).scroll(function () {
       }
     prevScrollPos = currentScrollPos;
 });
+
+/*read more*/
+$(document).ready(function() {
+  $(".more-button").click(function() {
+    $(".open-box").slideDown("slow");
+  });
+  
+  $(".close").click(function() {
+    $(".open-box").slideUp("slow");
+  });
+});
