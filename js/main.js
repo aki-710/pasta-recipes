@@ -4,7 +4,7 @@ $(function () {
       $(this).on("click", function () {
         var target = $(this).data('target');
         var modal = document.getElementById(target);
-        $(modal).fadeIn();
+        $(modal).css('display', 'none').fadeIn();
         return false;
       });
     });
@@ -19,9 +19,9 @@ $(function () {
 $(window).scroll(function () {
   var currentScrollPos = $(this).scrollTop();
     if (prevScrollPos > currentScrollPos) {
-        $('header').css('top', '0');
+        $('header').animate({top:  '0px' }, 200);
       } else {
-        $('header').css('top', '-1000px'); // ヘッダーの高さ分だけ上に隠す
+        $('header').animate({ top: '-1000px' }, 200); // アニメーション時間を追加
       }
     prevScrollPos = currentScrollPos;
 });
