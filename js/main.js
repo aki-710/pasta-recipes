@@ -21,16 +21,20 @@ $(window).scroll(function () {
     if (prevScrollPos > currentScrollPos) {
         $('header').animate({top:  '0px' }, 200);
       } else {
-        $('header').animate({ top: '-1000px' }, 200); // アニメーション時間を追加
+        $('header').animate({ top: '-1000px' }, 150); // アニメーション時間を追加
       }
     prevScrollPos = currentScrollPos;
 });
 
+
 /*read more*/
-$('.more-button').on('click',function(){
-  if ($('.open-box').is(':hidden')) {
-    $('.open-box').slideDown();
-    $(this).text('close');
-    $(this).css('background-color','#808080')
-  }
-})
+$(function() {
+  $(".more-button").click(function() {
+    $(".open-box").slideToggle();
+  });
+
+  $(".close").click(function() {
+    $(".open-box").slideToggle();
+    $(this).remove();
+  });
+});

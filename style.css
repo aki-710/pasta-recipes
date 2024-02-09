@@ -52,7 +52,7 @@ header a:hover {
     padding-top: 8%;
     display: flex;
     padding-left: 10%;
-    padding-bottom: 8%;
+    margin: 5%;
     width: 100%;
 }
 
@@ -132,7 +132,6 @@ header a:hover {
 .more-button p{
     color: #000000;
     border: 1px solid #000000;
-    margin: 20px;
 }
 
 #tool {
