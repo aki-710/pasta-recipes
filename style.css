@@ -52,7 +52,7 @@ header a:hover {
     padding-top: 8%;
     display: flex;
     padding-left: 10%;
-    margin: 5%;
+    padding-bottom: 5%;
     width: 100%;
 }
 
@@ -127,7 +127,7 @@ header a:hover {
 .merit-content p {
     font-size: 200%;
     line-height: 2;
-}
+} 
 
 .more-button p{
     color: #000000;
@@ -175,6 +175,10 @@ header a:hover {
     height: 100px;
     margin: 100px;
     flex-shrink: 0;
+}
+
+.contents {
+    display: flex;
 }
 
 .modal-open{
