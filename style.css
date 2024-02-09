@@ -134,6 +134,11 @@ header a:hover {
     border: 1px solid #000000;
 }
 
+.open-box {
+    display: none;
+  }
+  
+
 #tool {
     height: 250vh;
 }

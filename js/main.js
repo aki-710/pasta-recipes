@@ -31,6 +31,7 @@ $(window).scroll(function () {
 $(function() {
   $(".more-button").click(function() {
     $(".open-box").slideToggle();
+    $(this).text($(this).text() === "More" ? "Close" : "More");
   });
 
   $(".close").click(function() {
