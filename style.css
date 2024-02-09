@@ -171,14 +171,20 @@ header a:hover {
     font-weight: 15;
 }
 
-#recipe img {
-    height: 100px;
-    margin: 100px;
-    flex-shrink: 0;
-}
-
 .contents {
     display: flex;
+}
+
+.img-content {
+    padding-top: 10%;
+    padding-bottom: 10vh;
+}
+
+.img-content img {
+    width: 200px;
+    height: 200px;
+    padding-left: 7vw;
+    object-fit: cover
 }
 
 .modal-open{
