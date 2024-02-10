@@ -181,10 +181,15 @@ header a:hover {
 }
 
 .img-content img {
-    width: 200px;
-    height: 200px;
+    height: 18vw;
     padding-left: 7vw;
-    object-fit: cover
+    object-fit: cover;
+}
+
+.text-content {
+    margin: 10%;
+    padding-top: 13.3%;
+    font-size: auto;
 }
 
 .modal-open{
@@ -296,6 +301,7 @@ header a:hover {
 }
 
 footer {
+    font-family: 'Inter', sans-serif;
     height: 80px;
     line-height: 80px;
     text-align: center;
