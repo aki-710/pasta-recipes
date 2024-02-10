@@ -8,7 +8,7 @@ $(function () {
         return false;
       });
     });
-    $('.modal_close').on("click", function () {
+    $('.js-modal-close').on("click", function () {
       $('.js-modal').fadeOut();
       return false;
     });

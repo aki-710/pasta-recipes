@@ -101,7 +101,9 @@ header a:hover {
     line-height: 150%;
 }  
 #first img{
+    height:  100vh;
     width: 100%;
+    
 }
 
 #merit {
@@ -215,13 +217,15 @@ header a:hover {
     position: fixed;
     top: 0;
     width: 100%;
+    overflow: scroll;
 }
+
   .modal_bg {
     background: rgba(0, 0, 0, 0.8);
     position: absolute;
     width: 100%;
-    overflow: scroll;
 }
+
   .modal_content {
     background: #fff;
     left: 50%;
