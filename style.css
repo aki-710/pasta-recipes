@@ -283,7 +283,6 @@ header a:hover {
     padding-top: 5%;
     padding-bottom: 5%;
     font-size: 45px;
-    display: grid;
     place-items: center;
     font-weight: 100;
 }
@@ -291,14 +290,14 @@ header a:hover {
 .pasta-content h5 {
     padding-bottom: 2%;
     width: 70%;
-    margin: auto;
+    margin: 5%;
     font-size: 30px;
     font-weight: 100;
     border-bottom: 2px solid #D64D00;
 }
 
 .pasta-content p {
-    padding: 1%;
+    margin: 3%;
     border-bottom: 1px solid #000000;
     
 }
