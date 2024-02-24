@@ -261,10 +261,6 @@ header a:hover {
 	visibility: visible;
 }
 
-.js-modal-close {
-    overflow: scroll;
-}
-
 /*モーダル枠の指定*/
 .modal-content{
     background-image: url(/images/n3.jpg);
@@ -276,12 +272,11 @@ header a:hover {
     flex-direction: column;
     margin: auto;
     padding-bottom: 10%;
-    overflow: scroll;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 .modal_content h4 {
-    padding-top: 5%;
-    padding-bottom: 5%;
     font-size: 45px;
     place-items: center;
     font-weight: 100;
@@ -302,10 +297,10 @@ header a:hover {
     
 }
 
-.modal-close {
-    height: 30px;
-    width: auto;
-}
+.js-modal-close a {
+    display: flex;
+    justify-content: flex-end;
+} 
 
 footer {
     font-family: 'Inter', sans-serif;
