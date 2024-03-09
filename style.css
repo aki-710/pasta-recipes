@@ -315,7 +315,6 @@ header a:hover {
 .js-modal-close a {
     display: flex;
     justify-content: flex-end;
-    text-decoration: dashed;
 } 
 
 footer {
