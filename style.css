@@ -183,8 +183,9 @@ header a:hover {
 
 .img-content img {
     height: 18vw;
-    padding-left: 7vw;
+    margin-left: 7vw;
     object-fit: cover;
+    box-shadow: 10px 10px 10px 0 #acacac;
 }
 
 .text-content {
@@ -199,8 +200,8 @@ header a:hover {
     align-items: center;
     justify-content: center;
     top: 50%;
-    left: 50%;
-	width: 300px;
+    left: 10%;
+	width: 70vw;
 	height: 50px;
 	font-weight: bold;
 	color: #ffffff;
@@ -242,8 +243,9 @@ header a:hover {
     width: 100%;
 }
 
-.modal-content h4 {
+.modal_content h4 {
     padding-top: 30px;
+    padding-left: 40px;
 }
 
 .modal-container{
@@ -313,6 +315,7 @@ header a:hover {
 .js-modal-close a {
     display: flex;
     justify-content: flex-end;
+    text-decoration: dashed;
 } 
 
 footer {
